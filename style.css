@@ -1,0 +1,129 @@
+body{
+        background-color: rgba(0, 0, 0, 0.80);
+        color: #ddc9c9;
+        padding: 0;
+        margin: 0;
+      } 
+
+header,.hero-section, .wwd{
+  padding: 0 50px;
+}
+footer{
+  background-color: #000000;
+  color: #ddc9c9;
+  padding: 50px 50px 10px;
+  
+}
+a{
+  text-decoration: none;
+  color: #ddc9c9;
+  font-size: 22px;
+}
+button{
+  padding: 27px 48px;
+  border: none;
+  border-radius: 20px;
+  background-color: #30A0Ac;
+}
+h1{
+  font-size: 80px;
+}
+h3{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 60px;
+}
+h6{
+  font-size: 22px;
+  color: #30A0Ac;
+}
+p{
+  font-size: 22px;
+}
+footer p, footer a{
+  font-size: 18px;
+  display: block;
+  margin-bottom: 16px;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.nav{
+  gap: 400px;
+  margin-bottom: 50px;
+}
+.nav-links{
+  gap: 80px;
+}
+
+.nav button{
+padding: 15px 30px;
+  border-radius: 10px;
+}
+.hero-btn{
+  margin-top: 50px;
+  gap:30px
+}
+.black-btn{
+  background-color: black;
+  color: #30A0Ac;
+}
+.black-text{
+  color: black;
+}
+.pri-text{
+  color: #30A0Ac
+}
+.hero-section{
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+.task{
+  background-color: #30A0Ac;
+  color: #000;
+  gap: 100px;
+  padding: 20px 50px;
+}
+.task img{
+  margin-right:20px ;
+}
+.wwd-gap{
+  gap: 150px;
+  margin-bottom: 120px;
+  
+}
+.wwd img{
+  margin-right: 30px;
+  width: 100px;
+  height: 103px;
+}
+.partners{
+  background-color: #ddc9c9;
+  color: #000;
+  padding: 40px 0;
+}
+.partners .wwd-gap{
+  justify-content: center;
+}
+.footer-items{
+  display: flex;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+.footer-items div{
+  width: 25%;
+}
+footer img{
+  width: 32px;
+}
+.socials{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.copyright{
+  text-align: center;
+  color: #00000098;
+  
+}
